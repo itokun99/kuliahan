@@ -1,0 +1,13 @@
+Assalamualaikum Wr Wb
+
+Salam sejahtera bagi kita semua.
+
+Bagaimana Tutorial Online sesi 1? Apakah sudah selesai? Sebelum memasuki Tutorial Online sesi 2 sebaiknya diselesaikan terlebih dahulu sesi 1 karena pada sesi 2 ini merupakan lanjutan dari sesi 1. Jangan lupa juga pelajari modul MSIM4201 Sistem Operasi. Setelah mempelajari sesi 2 ini, diharapkan mahasiswa mampu:
+
+1. Memahami komponen-komponen Sistem Operasi
+2. Memahami struktur Sistem Operasi
+
+Materi yang akan dipelajari yaitu
+
+1. Komponen Sistem Operasi
+2. Struktur Sistem Operasi

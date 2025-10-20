@@ -1,0 +1,15 @@
+Salam sejahtera bagi kita semua.
+
+Selamat berjumpa kembali pada tutorial online sesi ke-2. Sebelum memasuki tutorial online sesi ke-2 ini, sebaiknya Anda telah memahami materi inisiasi pada sesi ke-1, karena sesi ini merupakan lanjutan dari sesi ke-1.
+
+Juga jangan lupa untuk mempelajari modul 2 Buku Materi Pokok STSI4202 Rekayasa Perangkat Lunak sebelum mengikuti sesi ke-2 ini.
+
+Adapun capaian pembelajaran setelah mempelajari materi sesi ke-2 ini mahasiswa mampu menjelaskan:
+
+teknik pengumpulan data dengan wawancara, observasi, dan kuesioner;
+jenis kebutuhan perangkat lunak;
+dokumentasi proses, produk, user, dan sistem;
+proses persiapan dokumentasi.
+Untuk membantu proses pembelajaran jangan lupa selalu membaca BMP Rekayasa Perangkat Lunak (STSI4202) dan gunakan forum diskusi.
+
+Selamat Belajar!

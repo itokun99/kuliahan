@@ -1,0 +1,23 @@
+Izin menanggapi diskusi mengenai kerangka kerja.
+
+1. Jika saya seorang perancang aplikasi, kompleksitas kerangka kerja (interaction framework) yang utama bukanlah pada teknis coding, melainkan pada "penerjemahan" antara pikiran pengguna dan logika sistem.
+
+Sesuai materi Sesi 2, kerangka kerja interaksi ini punya empat komponen: Sistem (S), Pengguna (P), Masukan (M), dan Keluaran (K). Kompleksitasnya muncul pada:
+
+- Jarak Pemisah Eksekusi (Gulf of Execution): Ini adalah tantangan terbesar. Pengguna punya tujuan (Gol), tapi mereka bingung bagaimana cara menyatakannya ke dalam "bahasa masukan" sistem. Misalnya, pengguna ingin "menyimpan draf", tapi ikon atau menu yang saya desain tidak intuitif. Mereka jadi ragu-ragu, "Saya harus klik yang mana?"
+- Jarak Pemisah Evaluasi (Gulf of Evaluation): Setelah pengguna berhasil melakukan tindakan (eksekusi), mereka sering kesulitan mengartikan status sistem. Misalnya, setelah menekan tombol "Simpan", tidak ada notifikasi apa-apa. Pengguna jadi bertanya, "Ini sudah tersimpan atau belum?"
+
+- Kesenjangan Model Mental: Kompleksitas ini adalah akar masalahnya. Model Konseptual (peta kerja di kepala saya sebagai perancang) seringkali tidak cocok dengan Model Mental (peta kerja yang dibayangkan oleh pengguna saat mereka berinteraksi).
+
+2. Untuk mengatasi kompleksitas tersebut, fokus utama saya adalah meminimalkan kedua "jarak pemisah" tadi agar Model Mental pengguna bisa selaras dengan rancangan saya.
+
+- Mengatasi Jarak Eksekusi: Saya akan menerapkan konsep Pemetaan (Mapping) yang logis. Misalnya, tombol panah kanan harus selalu berarti "lanjut", bukan "kembali". Saya juga akan memastikan desain memiliki "Affordance" yang baik, contohnya tombol harus terlihat menonjol sehingga jelas bahwa itu bisa diklik.
+
+- Mengatasi Jarak Evaluasi: Saya wajib merancang sistem agar selalu memberikan umpan balik (feedback) yang jelas dan segera. Saat pengguna menekan "Simpan", sistem harus langsung memberi respons "Penyajian" (misalnya, notifikasi "Berhasil disimpan!") agar pengguna bisa melakukan "Observasi" dan menutup siklus evaluasi.
+
+- Memilih Paradigma yang Tepat: Saya akan menghindari paradigma Berpusat-Pada-Implementasi, karena pengguna tidak perlu tahu cara kerja database. Saya akan menggunakan paradigma Metaforik (seperti ikon keranjang belanja) untuk fitur-tur dasar agar mudah dipelajari. Namun, untuk efisiensi, saya akan lebih mengandalkan Paradigma Idiomatik, yaitu mengajarkan pengguna idiom visual yang cepat (seperti swipe ke kiri untuk menghapus). Idiom ini, sekali dipelajari, jauh lebih cepat dan tidak terbatas dibanding metafora.
+
+
+Referensi: 
+- Universitas Terbuka. (2025). Materi Sesi 2 STSI4203: Kerangka Kerja dan Paradigma Interaksi. Norman, D. A. (2013). The Design of Everyday Things.
+- Jawaban teman-teman diskusi sebelumnya sebagai referensi tambahan.

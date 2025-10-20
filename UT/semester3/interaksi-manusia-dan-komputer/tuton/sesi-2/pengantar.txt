@@ -1,0 +1,13 @@
+Selamat berjumpa kembali mahasiswa/i peserta Tuton IMK...
+
+Saat ini telah memasuki Sesi 2 pelaksanaan Tuton. Pada sesi ini akan dibahas materi tentang beberapa kerangka kerja yang sangat penting untuk menggali interaksi manusia dan komputer. Kerangka kerja ini memberikan fondasi yang memadai untuk memahami cara manusia berinteraksi dengan komputer.
+
+Setelah mempelajari materi pada Sesi 2 ini, capaian pembelajaran khusus yang diharapkan mahasiswa/i mampu:
+
+menjelaskan siklus tindakan eksekusi/evaluasi;
+menjelaskan komponen utama kerangka kerja interaksi;
+menjelaskan siklus interaksi;
+menjelaskan paradigma dominan dalam perancangan suatu antarmuka.
+Informasi sumber belajar utama berasal dari Modul 3 dalam Buku Materi Pokok (BMP) MSIM4208/Interaksi Manusia dan Komputer. Untuk itu, silakan Anda pelajari kembali agar dapat lebih memahami materi pada Sesi 2 ini. Jangan lupa juga untuk selalu aktif memberikan tanggapan dalam Forum Diskusi.
+
+Selamat mengikuti Tuton...

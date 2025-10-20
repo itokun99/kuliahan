@@ -1,0 +1,32 @@
+Izin menjawab pertanyaan diskusi Sesi 2 mengenai teknik pengumpulan data dalam analisis sistem.
+
+Dalam studi kasus pengembangan Sistem Informasi Akademik (SIA) baru, kita diminta untuk menganalisis tiga teknik utama pengumpulan data. Ketiga teknik ini memiliki kekuatan dan kelemahannya masing-masing yang sangat bergantung pada apa yang ingin kita ketahui dan dari siapa kita ingin mengetahuinya.
+
+1. Wawancara (Interview)
+Ini adalah teknik "mendalam". Untuk proyek SIA, wawancara sangat penting untuk menggali kebutuhan strategis dari stakeholder kunci seperti Rektorat atau para Dekan. Kita juga bisa menggunakannya untuk memahami masalah kompleks yang dihadapi oleh Kepala Bagian Akademik. Kelemahannya, seperti yang disebutkan dalam materi, adalah memakan waktu dan rentan terhadap bias.
+
+2. Kuesioner (Questionnaire)
+Ini adalah teknik "melebar". Ketika kita perlu memvalidasi seberapa umum sebuah masalah (misalnya, "sulitnya proses KRS online") dirasakan oleh ribuan mahasiswa atau puluhan dosen, kuesioner adalah cara paling efisien. Seperti yang disoroti oleh rekan kita (AM), teknik ini efisien untuk sampel besar. Namun, kita tidak bisa mendapatkan jawaban "mengapa" secara mendalam dari kuesioner.
+
+3. Observasi (Observation)
+Ini adalah teknik "realitas". Observasi memungkinkan kita melihat apa yang sebenarnya terjadi, bukan hanya apa yang dikatakan orang. Misalnya, kita bisa mengamati staf akademik saat mereka memproses data kelulusan untuk menemukan bottleneck atau langkah-langkah tidak efisien yang mungkin mereka sendiri tidak sadari. Rekan kita (AF) juga menyoroti ini sebagai cara untuk melihat proses yang sedang berjalan.
+
+Lalu, manakah yang paling efektif?
+
+Saya setuju dengan pandangan rekan-rekan disini bahwa dalam praktiknya, seorang analis sistem profesional tidak akan pernah memilih hanya satu; kombinasi adalah kunci sukses. Mengandalkan satu teknik saja sangat berisiko:
+
+- Hanya wawancara -> Kita mungkin membangun sistem yang sempurna untuk 5 orang petinggi, tapi dibenci oleh 5.000 mahasiswa.
+- Hanya kuesioner -> Kita mendapatkan data "dangkal" tanpa memahami konteks strategis atau proses bisnis yang rumit.
+- Hanya observasi -> Kita tahu apa yang mereka lakukan, tapi kita tidak tahu mengapa mereka melakukannya.
+
+Namun, jika kita dipaksa untuk memilih satu teknik yang paling krusial atau paling fundamental untuk memulai proyek sekompleks SIA ini, saya akan memilih Wawancara (Interview).
+
+Alasan saya: Pengembangan SIA baru bukan hanya perbaikan teknis, ini adalah perubahan strategis yang memengaruhi seluruh proses bisnis universitas. Kita mutlak harus mendapatkan pemahaman yang mendalam tentang visi pimpinan, masalah inti dari operator utama, dan batasan-batasan sistem (regulasi) terlebih dahulu. Wawancara adalah satu-satunya teknik yang dapat menggali informasi kualitatif dan kompleks ini secara mendalam. Hasil wawancara inilah yang kemudian akan menjadi dasar untuk merancang kuesioner yang baik dan menentukan proses mana yang krusial untuk diobservasi.
+
+Itu saja jawaban dari saya, sekian dan terima kasih. 
+
+Referensi:
+- Materi Pengayaan MSIM4303 Rekayasa Perangkat Lunak Sesi 2. (Dokumen: Inisiasi2_RPL.pptx). Universitas Terbuka.
+- Forum Diskusi Sesi 2, Universitas Terbuka.
+- Tanggapan Diskusi Sesi 2 oleh AF.
+- Tanggapan Diskusi Sesi 2 oleh AM.

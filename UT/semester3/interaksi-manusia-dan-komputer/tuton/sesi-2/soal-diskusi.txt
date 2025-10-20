@@ -1,0 +1,6 @@
+Setelah mempelajari materi pada sesi kedua tentang Kerangka Kerja dan Paradigma Interaksi, diskusikanlah topik berikut ini.
+
+Topik Diskusi 2
+
+Jika Anda adalah seorang perancang dalam pembuatan sebuah aplikasi, jelaskan kompleksitas kerangka kerja yang saudara alami/hadapi saat membuat suatu aplikasi tersebut!
+Jelaskan, bagaimana cara Anda mengatasi kompleksitas kerangka kerja tersebut! 
