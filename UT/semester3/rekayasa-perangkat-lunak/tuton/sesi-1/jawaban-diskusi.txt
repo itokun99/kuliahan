@@ -1,0 +1,43 @@
+A. Dampak Negatif Akibat Tidak Adanya Dokumentasi
+Tidak adanya dokumentasi teknis dari vendor menyebabkan beberapa dampak negatif yang signifikan:
+
+1. Peningkatan Waktu dan Kesulitan Pemeliharaan: Tim internal akan menghabiskan waktu lebih lama hanya untuk memahami alur logika dan arsitektur program sebelum dapat melakukan modifikasi. Hal ini sejalan dengan konsep maintainability (kemampuan untuk terus dipelihara) yang menjadi kriteria utama perangkat lunak yang baik.
+
+2. Risiko Tinggi Memperkenalkan Cacat Baru: Tanpa pemahaman yang jelas tentang bagaimana komponen sistem saling berinteraksi, setiap perubahan kecil berisiko menyebabkan masalah tak terduga di bagian lain dari program.
+
+3. Ketergantungan pada Pengembang Asli: Perusahaan menjadi sangat bergantung pada vendor atau bahkan individu pengembang yang asli, yang mungkin sudah tidak tersedia atau akan mengenakan biaya yang sangat mahal untuk konsultasi.
+
+Kesulitan Onboarding Tim Baru: Mentransfer pengetahuan tentang sistem kepada anggota tim baru menjadi hampir tidak mungkin, menghambat skalabilitas dan regenerasi tim pengembang internal. Hal ini relevan dengan "tantangan warisan" di mana perangkat lunak menjadi sulit dipahami karena dikembangkan oleh orang yang berbeda.
+
+B. Pengaruh Terhadap Operasional dan Biaya Jangka Panjang
+Secara jangka panjang, ketiadaan dokumentasi akan sangat merugikan perusahaan:
+
+1. Meningkatnya Total Cost of Ownership (TCO): Biaya pemeliharaan dan modifikasi perangkat lunak akan membengkak. Biaya ini tidak hanya mencakup gaji pengembang, tetapi juga kerugian akibat waktu henti sistem (downtime) atau fitur yang gagal diimplementasikan tepat waktu.
+
+2. Menghambat Inovasi dan Adaptasi Bisnis: Perusahaan akan lambat dalam merespons perubahan kebutuhan pasar. Ketidakmampuan untuk memodifikasi fitur secara efisien berarti perusahaan kalah saing karena perangkat lunaknya tidak dapat berevolusi  mengikuti perkembangan bisnis.
+
+3. Risiko Operasional: Jika terjadi bug kritis, perusahaan akan kesulitan untuk memperbaikinya dengan cepat. Ini dapat mengganggu operasional inti dan menyebabkan kerugian finansial langsung serta merusak reputasi perusahaan.
+
+C. Solusi yang Disarankan
+Untuk mengatasi situasi ini, dapat diambil beberapa langkah baik untuk penanganan segera maupun pencegahan di masa depan:
+
+a. Solusi Jangka Pendek (Reaktif):
+
+1. Reverse Engineering: Tim internal harus melakukan rekayasa mundur pada kode. Ini melibatkan analisis source code untuk membuat kembali dokumentasi arsitektur, model data, dan logika bisnis. Proses ini memakan waktu tetapi merupakan investasi penting.
+
+2. Alokasikan Waktu Khusus untuk Dokumentasi: Sebelum melakukan modifikasi, alokasikan sumber daya dan waktu bagi tim untuk mempelajari kode dan membuat dokumentasi internal seiring berjalannya waktu (as-you-go documentation).
+
+3. Gunakan Static Code Analysis Tools: Manfaatkan tools yang dapat menganalisis kode secara otomatis untuk menghasilkan diagram ketergantungan (dependency graphs) dan metrik kompleksitas, yang membantu memahami struktur program.
+
+b. Solusi Jangka Panjang (Preventif):
+
+1. Perkuat Kontrak dengan Vendor: Untuk proyek di masa depan, sertakan klausul dalam kontrak yang mewajibkan penyerahan dokumentasi teknis yang lengkap dan komprehensif sebagai salah satu syarat pelunasan pembayaran.
+
+2. Terapkan Standar Dokumentasi: Buat standar internal di PT. ABC mengenai jenis dan kualitas dokumentasi yang harus ada untuk setiap perangkat lunak, baik yang dikembangkan internal maupun oleh vendor.
+
+3. Lakukan Code Review dan Walkthrough Bersama Vendor: Sebelum serah terima proyek, adakan sesi review di mana tim vendor menjelaskan arsitektur dan logika kode kepada tim internal PT. ABC. Ini memastikan transfer pengetahuan berjalan dengan baik.
+
+Referensi:
+- Sommerville, Ian. (2011). Software Engineering, 9th Edition. Addison-Wesley.
+- Pressman, Roger S. (2010). Software Engineering: A Practitioner's Approach, 7th Edition. McGraw-Hill.
+- Materi Pengayaan MSIM4303 Rekayasa Perangkat Lunak Sesi 1. (Dokumen: Inisiasi1_RPL.pptx). Universitas Terbuka.

@@ -1,0 +1,40 @@
+Nama: INDRAWAN LISANTO
+NIM: 053724113
+-----------------------------------------
+
+1. Ukuran pemusatan yang tepat untuk setiap data ditentukan oleh sifat dan distribusi data tersebut.
+
+- Jenis Makanan Favorit -> Modus
+Alasan: Data bersifat kategorik (nominal). Modus menunjukkan kategori yang paling sering muncul ("nasi goreng").
+
+- Waktu Tidur per Malam -> Mean (Rata-rata)
+Alasan: Data bersifat kuantitatif dengan distribusi seimbang dan tanpa nilai ekstrem. Mean paling baik dalam menggambarkan tendensi umum pada data simetris.
+
+- Pengeluaran Bulanan -> Median
+Alasan: Data memiliki rentang sangat lebar dan terdapat nilai ekstrem (outlier). Median tidak terpengaruh oleh outlier, sehingga lebih representatif untuk mayoritas mahasiswa.
+
+---------------------------------
+2. Kasus Uji Klinis Obat
+
+a) Mengapa variansi diperlukan meski rata-rata sama?
+
+Variansi sangat penting karena rata-rata hanya menunjukkan nilai pusat, bukan sebaran atau konsistensi efeknya. Meskipun rata-rata kedua obat sama (15 mmHg), variansi dapat mengungkap bahwa:
+- Obat A memiliki efek yang stabil (sebaran kecil antara 12-18 mmHg).
+- Obat B memiliki efek yang tidak stabil dan sulit diprediksi (sebaran besar antara 5-30 mmHg).
+Tanpa variansi, perbedaan krusial dalam keandalan efek obat ini tidak akan terlihat.
+
+
+b) Bagaimana variansi membantu menentukan obat yang lebih baik?
+
+- Variansi secara langsung mengukur stabilitas dan keandalan obat, yang menjadi penentu utama dalam penggunaan klinis.
+- Variansi Kecil (Obat A): Menandakan efek yang konsisten dan dapat diprediksi pada sebagian besar pasien. Obat ini lebih aman dan dapat diandalkan.
+- Variansi Besar (Obat B): Menandakan efek yang tidak konsisten dan berisiko. Ada kemungkinan pasien tidak merespons (efek lemah) atau merespons berlebihan (efek terlalu kuat).
+
+Secara klinis, Obat A lebih baik karena variansinya yang rendah menunjukkan hasil yang lebih stabil dan aman untuk populasi pasien yang lebih luas.
+
+Referensi
+- BMP SATS4121 Metode Statistika I
+- Sugiyono. (2011, 2017, 2019). Statistik untuk Penelitian. Bandung: Alfabeta.
+- Beberapa kesimpulan berdasarkan diskusi di halaman ini.
+
+

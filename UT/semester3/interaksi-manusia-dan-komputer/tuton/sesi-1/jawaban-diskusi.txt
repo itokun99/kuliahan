@@ -1,0 +1,20 @@
+Izin menanggapi diskusi.
+
+1. Peranti bantu yang sering digunakan:
+Saya sering menggunakan keyboard dan layar sentuh (touchscreen).
+
+2. Fungsi dan keuntungannya:
+- Keyboard: Untuk mengetik teks dan menggunakan shortcut. Keuntungannya adalah proses input data menjadi sangat cepat dan efisien.
+- Layar Sentuh: Untuk interaksi langsung menggunakan jari (sentuh, geser). Keuntungannya adalah terasa lebih intuitif dan praktis.
+
+3. Ide peranti bantu masa depan:
+Saya mengusulkan Antarmuka Proyeksi Adaptif.
+- Bentuk: Proyektor kecil yang menampilkan antarmuka interaktif ke permukaan datar seperti meja.
+- Teknologi: Menggunakan sensor gerak 3D dan AI untuk melacak gestur tangan serta menyesuaikan tampilan antarmuka secara otomatis sesuai kebutuhan.
+- Fungsi: Menggantikan keyboard/mouse fisik. Pengguna bisa mengontrol komputer hanya dengan gerakan tangan, membuat interaksi lebih alami dan fleksibel.
+
+Terima kasih.
+
+Referensi:
+Universitas Terbuka. (2025). Materi Sesi 1 STSI4203: Interaksi Manusia & Komputer.
+Shneiderman, B., dkk. (2018). Designing the User Interface: Strategies for Effective Human-Computer Interaction (Edisi ke-6). Pearson.

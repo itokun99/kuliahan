@@ -1,0 +1,29 @@
+Perkembangan sistem operasi (SO) memang selalu sejalan dengan kemajuan teknologi hardware. Semakin canggih perangkat kerasnya, SO pun harus ikut berevolusi agar bisa memanfaatkannya dengan baik.
+
+
+Berikut adalah evolusi sistem operasi dari waktu ke waktu secara ringkas:
+
+1. Generasi Awal (1940-an) - Tanpa Sistem Operasi ⚙️
+Di masa-masa awal, komputer adalah mesin raksasa yang menggunakan vacuum tube dan belum memiliki sistem operasi sama sekali. Semua perintah harus dimasukkan secara manual oleh operator menggunakan saklar dan kabel.
+
+2. Era Sistem Batch (1950-an) - Satu per Satu 🗂️
+Setelah transistor ditemukan, komputer menjadi lebih andal. Muncullah konsep sistem batch, di mana pekerjaan-pekerjaan sejenis dikumpulkan jadi satu (batch) lalu dieksekusi secara berurutan oleh komputer. Tujuannya agar komputer tidak banyak menganggur.
+
+3. Era Multiprogramming & Time-Sharing (1960-an) - Mulai Bisa Keroyokan 👥
+Berkat teknologi Integrated Circuit (IC), komputer jadi jauh lebih bertenaga. Di sinilah lahir konsep-konsep penting:
+
+- Multiprogramming: Memungkinkan beberapa program tersimpan di memori dan berjalan secara bersamaan.
+- Time-Sharing: Pengembangan dari multiprogramming, di mana waktu CPU dibagi-bagi untuk melayani banyak pengguna sekaligus, sehingga setiap orang merasa seperti punya komputer sendiri. Di era inilah lahir sistem operasi legendaris seperti UNIX.
+
+4. Era Personal Computer / PC (1980-an) - Komputer untuk Semua 💻
+Penemuan microprocessor membuat komputer jadi lebih kecil, murah, dan bisa dimiliki oleh perorangan (PC). Fokus SO pun bergeser, tidak hanya soal efisiensi tapi juga kemudahan penggunaan. Era ini ditandai dengan:
+
+- Munculnya MS-DOS yang berbasis teks.
+- Revolusi GUI (Graphical User Interface) yang menggunakan ikon dan jendela, dipopulerkan oleh Apple Macintosh dan kemudian Microsoft Windows.
+
+5. Era Modern (2000-an - Sekarang) - Mobile, Jaringan, dan Cloud 📱☁️
+Ledakan internet dan perangkat mobile seperti smartphone mendorong lahirnya sistem operasi modern. Fokus utamanya adalah konektivitas, efisiensi daya, dan antarmuka sentuh. Contoh utamanya tentu saja Android dan iOS yang mendominasi pasar saat ini. Era ini juga sangat terintegrasi dengan cloud computing atau komputasi awan.
+
+Referensi:
+- Materi Pengayaan MSIM4201 Sistem Operasi Sesi 1 - Pengenalan Sistem Operasi.
+- Forum Diskusi Sesi 1 - Elearning UT.

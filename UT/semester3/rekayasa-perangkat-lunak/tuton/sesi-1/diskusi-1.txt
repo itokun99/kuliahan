@@ -1,0 +1,16 @@
+Selamat datang di sesi diskusi studi kasus pertama pada mata kuliah Rekayasa Perangkat Lunak! Mari kita simak sebuah situasi nyata yang menguji kreativitas dan kemampuan problem solving Anda.
+
+Studi Kasus: Tantangan Dokumentasi pada Hasil Proyek Vendor
+
+PT. ABC mengontrak sebuah vendor untuk mengembangkan sebuah program penting yang mendukung operasional perusahaan. Setelah proyek selesai, vendor menyerahkan source code program kepada PT. ABC, namun tanpa disertai dokumentasi teknis yang memadai.
+
+Setahun kemudian, seiring dengan perubahan kebutuhan pasar, PT. ABC memutuskan untuk melakukan modifikasi pada salah satu fitur program. Namun, tim internal mengalami kendala besar karena:
+
+Tidak adanya dokumentasi yang menjelaskan struktur, logika, dan arsitektur program.
+Kesulitan memahami dan mengidentifikasi bagian-bagian kode yang perlu diubah.
+Pertanyaan Diskusi:
+
+Menurut Anda, apa saja dampak negatif yang mungkin timbul akibat tidak adanya dokumentasi dari vendor?
+Bagaimana hal ini dapat mempengaruhi operasional dan biaya perusahaan dalam jangka panjang?
+Solusi apa yang anda sarankan untuk situasi seperti ini ?
+Silakan bagikan ide dan solusi inovatif kalian untuk mengatasi masalah ini. Diskusi ini diharapkan tidak hanya memberikan jawaban atas permasalahan saat ini, tetapi juga membuka wawasan tentang best practices dalam pengelolaan proyek perangkat lunak. Selamat berdiskusi dan berkreasi!

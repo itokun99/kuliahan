@@ -1,0 +1,3 @@
+Setelah mempelajari materi pada sesi pertama ini tentang Pengenalan Sistem Operasi silahkan jawab dan diskusikan pertanyaan pada forum diskusi ini.
+
+Perkembangan Sistem Operasi sangat dipengaruhi oleh perkembangan hardware. Fasilitasi penggunaan hardware adalah sebuah alasan mengapa sistem operasi dikembangkan. Dengan kata lain, ketika hardware berkembang dan bertambah maju, maka harus diikuti oleh kemajuan pengembangan sistem operasi. Sebutkan Evolusi sistem operasi dari waktu ke waktu!
