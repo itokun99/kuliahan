@@ -1,0 +1,23 @@
+Izin menanggapi topik Diskusi 3.
+
+1. Aplikasi yang saya pilih adalah Spotify (aplikasi pemutar musik).
+
+Kesalahan klasik yang saya identifikasi terdapat pada fungsi "Search" (Cari). Ketika saya mengetikkan nama seorang artis, misalnya "Dewa 19", saya mengharapkan hasil pencarian teratas (Top Result) adalah halaman profil resmi artis tersebut. Namun, yang sering terjadi, hasil teratas justru adalah sebuah playlist yang dibuat oleh pengguna lain, atau sebuah lagu populer. Saya harus menggeser layar ke bawah dan mencari kategori "Artis" secara manual untuk menemukan halaman profil yang sebenarnya saya tuju.
+
+2. Uraian Kesalahan Klasik
+
+Kesalahan pada fungsi pencarian Spotify ini dapat dihubungkan dengan beberapa poin "Kesalahan Klasik" yang dijelaskan dalam Materi Inisiasi Sesi 3:
+- Perancangan yang didasarkan pada common-sense (akal sehat perancang). Perancang Spotify mungkin berasumsi (menggunakan common sense mereka) bahwa ketika pengguna mencari nama artis, tujuan utamanya adalah untuk langsung memutar lagu. Asumsi ini mengabaikan tujuan pengguna lain yang mungkin ingin melihat diskografi lengkap, album, atau bio artis terlebih dahulu.
+- Anggapan implisit yang tidak sesuai/tidak didukung. Perancang secara implisit menganggap bahwa playlist populer lebih relevan daripada profil artis resmi. Asumsi ini tidak didukung oleh data perilaku semua segmen pengguna, terutama pengguna baru yang sedang bereksplorasi.
+- Evaluasi formal yang menggunakan kelompok subyek yang tidak sesuai. Ada kemungkinan uji kebergunaan (usability testing) untuk fitur ini dilakukan pada subjek yang tidak representatif. Misalnya, pengujian dilakukan pada tim internal atau pengguna lama yang sudah hafal dengan navigasi aplikasi, bukan pada pengguna baru yang masih membangun model mental mereka.
+
+Kesalahan ini secara langsung berdampak pada "kebergunaan" (usability) aplikasi. Menurut komponen kualitas Nielsen, ini mengurangi:
+- Efisiensi (Efficiency): Pengguna harus melakukan langkah tambahan (scroll, mencari kategori) untuk menyelesaikan tugas sederhana, sehingga sistem menjadi tidak efisien.
+- Kemampuan untuk dipelajari (Learnability): Sistem menjadi sulit dipelajari karena perilakunya tidak sesuai dengan ekspektasi logis pengguna.
+
+Terima kasih.
+
+Referensi:
+1. Universitas Terbuka. (2025). Materi Inisiasi Sesi 3: Kebergunaan.
+2. Universitas Terbuka. (2025). Pengantar Sesi 3 - IMK.
+3. e-Learning UT. (2025). Materi 3 IMK: Kebergunaan (Usability). [Video YouTube]. Diakses dari https://youtu.be/DUsT3vCx31M.

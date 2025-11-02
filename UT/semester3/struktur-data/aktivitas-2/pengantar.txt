@@ -1,0 +1,16 @@
+Halo, para Mahasiswa... Selamat bergabung kembali pada Tutorial Online Aktivitas Belajar 2.
+
+Pada Aktivitas Belajar ini, akan dibahas mengenai:
+
+Tipe data primitif
+Tipe data abstrak
+Tipe data koleksi
+Setelah mengikuti pembelajaran ini diharapkan mahasiswa mampu mengkategorikan kebutuhan variabel yang digunakan dalam struktur data berdasarkan pada jenis tipe data (Primitif, Abstrak dan Koleksi).
+
+Untuk membantu proses pembelajaran, jangan lupa selalu membaca sumber belajar wajib Buku Materi Pokok MSIM4202 Struktur Data khususnya pada Modul 2 dan menggunakan forum diskusi jika memiliki kendala dalam pembelajaran.
+
+Selamat Belajar dan Tetap Semangat
+
+Salam, 
+
+Tutor

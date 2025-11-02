@@ -1,0 +1,13 @@
+Para Mahasiswa peserta Tuton... Selamat bertemu kembali pada Tutorial Online Aktivitas Belajar 3. 
+
+Pada aktivitas belajar ini kita akan membahas mengenai tipe data array dua dimensi
+
+Adapun capaian pembelajaran aktivitas belajar ini adalah mahasiswa diharapkan mampu membangun dan memodifikasi aplikasi dalam bentuk praktikum tipe data dengan menggunakan bahsa pemrograman Java.
+
+Untuk membantu proses pembelajaran, para mahasiswa agar selalu membaca sumber belajar Modul 2, BMP MSIM4202 Matakuliah Struktur Data.
+
+Tetap semangat dan selamat belajar
+
+Salam, 
+
+Tutor

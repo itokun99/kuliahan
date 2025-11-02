@@ -1,0 +1,70 @@
+Jawaban Diskusi Sesi 2
+
+Nama: INDRAWAN LISANTO
+NIM: 053724113
+---
+1. Kasus Mahasiswa dan Keputusan Belajar
+
+Diketahui:
+mahasiswa mempertimbangkan pilihan (Belajar Semalaman/B atau Tidak Belajar/TB) dengan kemungkinan hasil ujian (Lulus/L atau Tidak Lulus/TL).
+
+a) Ruang Sampel (S) Ruang sampel adalah himpunan semua kemungkinan hasil yang bisa terjadi dari kombinasi keputusan dan hasil ujian. S = {(B, L), (B, TL), (TB, L), (TB, TL)} 
+
+b) Kejadian (A) Kejadian adalah himpunan bagian dari ruang sampel yang mewakili peristiwa tertentu. Misalkan kejadian yang ingin dihitung peluangnya adalah "Mahasiswa Lulus Ujian", maka: A = {(B, L), (TB, L)}
+
+c) Contoh Nyata Penerapan Peluang (Berbeda dari Soal) Seorang petani ingin mengetahui peluang hujan besok untuk memutuskan menanam benih atau tidak. Berdasarkan data BMKG, peluang hujan adalah 60% (P(Hujan) = 0.6). Jika hujan, benih tumbuh baik. Jika tidak hujan, benih berisiko mati. Petani menggunakan peluang ini untuk mengambil keputusan rasional.
+
+- Ruang Sampel S = {Hujan, Tidak Hujan} 
+- Kejadian A = {Hujan}
+
+---
+
+2. Kasus Keluarga dengan Empat Anak
+Keluarga memiliki 4 anak. Jenis kelamin bisa Laki-laki (L) atau Perempuan (P).
+Asumsi:
+P(L) = P(P) = 1/2.
+
+Total kemungkinan urutan kelahiran (ruang sampel):
+n(S)= 2^2 =16.
+
+A: Kejadian memiliki paling sedikit 2 anak laki-laki (≥2 L).
+B: Kejadian anak kedua Laki-laki (L) dan anak ketiga Perempuan (P) (_ L P _).
+
+
+a) Hitung P(A) Kejadian A mencakup memiliki 2L, 3L, atau 4L.
+
+- Jumlah kombinasi 2L: C(4,2)= 4! / 2!(4−2)! = 6 
+- Jumlah kombinasi 3L: C(4,3)= 4! / 3!(4−3)! = 4 
+- Jumlah kombinasi 4L: C(4,4)= 4! / 4!(4−4)! = 1
+
+Total n(A)=6+4+1=11. 
+Maka, P(A)= n(A) / n(S) = 11/16
+
+b) Hitung P(B) Kejadian B memiliki pola _ L P _. Posisi anak ke-1 dan ke-4 bebas (masing-masing 2 pilihan: L/P). Jumlah kombinasi n(B)=2×1×1×2=4. 
+Kombinasi yang memenuhi B: {LLPL, LLPP, PLPL, PLPP}. 
+Maka, P(B) = n(B) / n(S) = 4/16 = 1/4.
+
+c) Hitung P(A n B)
+A n B adalah kejadian A dan B terjadi bersamaan: memiliki ≥ 2 L DAN anak ke-2 L, anak ke-3 P. 
+
+Kita periksa 4 kombinasi dari B, mana yang memenuhi A (≥2 L):
+- LLPL (3 L) -> Memenuhi A 
+- LLPP (2 L) -> Memenuhi A 
+- PLPL (2 L) -> Memenuhi A 
+
+PLPP (1 L) -> Tidak memenuhi A  Terdapat 3 kombinasi yang memenuhi AnB. 
+Jadi, n(A n B)=3. Maka, P(A n B)= n(A n B) / n(S) = 3/16.
+
+d) Hitung P(A|B)
+Ini adalah peluang bersyarat: peluang A terjadi jika diketahui B telah terjadi. Rumus peluang bersyarat: 
+
+P(A | B)= P(A n B) / P(B)
+P(A | B)= (3/16) / (1/4)= (3/16) × (4/1)= 12/16= 3/4.
+Jadi, peluangnya adalah 3/4 atau 0.75.
+
+
+Referensi
+- Materi Inisiasi 2: Sesi 2 - Peluang dan Rumus-rumus Peluang.pdf
+- Materi Pengayaan Sesi 2 - Teori Peluang .pdf
+- Sutikno, & Ratnaningsih, D. J. (2019/2022). Metode Statistika I (BMP SATS4121 Edisi 2/3). Tangerang Selatan: Universitas Terbuka.
+- Walpole, R. E., Myers, R. H., Myers, S. L., & Ye, K. (2017). Probability and Statistics for Engineers and Scientists (9th ed.). Pearson Education.

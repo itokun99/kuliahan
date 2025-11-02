@@ -1,0 +1,45 @@
+Nama: INDRAWAN LISANTO 
+NIM: 053724113
+Prodi: Sistem Informasi
+
+Tugas 1: Sistem Operasi (MSIM4201)
+
+1. Masalah Instalasi Scanner pada Windows Lawas
+a. Analisis Permasalahan: Permasalahan ini kemungkinan besar terjadi bukan karena konektor kabel yang salah, tetapi karena adanya masalah pada sisi perangkat lunak, khususnya pada Manajemen I/O (Input/Output).
+Berdasarkan materi Sesi 2, sistem operasi (Windows lawas) bertindak sebagai perantara antara perangkat keras (scanner) dan program aplikasi. Agar bisa "berbicara" dengan perangkat keras baru seperti scanner, sistem operasi memerlukan sebuah perangkat lunak khusus yang disebut device driver (driver perangkat).
+Windows yang sudah lawas kemungkinan besar tidak memiliki driver bawaan untuk mengenali model scanner yang baru. Meskipun kabel terhubung, sistem operasi tidak tahu bagaimana cara mengirim dan menerima perintah dari scanner tersebut.
+
+b. Solusi yang Dilakukan: Sebagai tenaga IT, solusi yang akan saya lakukan adalah menjembatani komunikasi antara scanner dan sistem operasi dengan cara menginstal driver yang tepat:
+
+1) Saya akan mengidentifikasi model scanner dan versi pasti dari sistem operasi Windows lawas yang digunakan (misalnya Windows XP, Windows 7, dll.).
+2) Saya akan mengunjungi website resmi dari produsen scanner tersebut untuk mencari dan mengunduh driver yang kompatibel (cocok) untuk versi Windows lawas itu.
+3) Setelah driver diunduh, saya akan menginstalnya di komputer tersebut.
+4) Terakhir, saya akan me-restart komputer. Proses restart ini penting agar sistem operasi dapat memuat driver baru tersebut ke dalam sistem I/O-nya dan mulai mengenali scanner yang terhubung.
+
+2. Proses Awal Saat Komputer Dinyalakan
+
+Saat komputer pertama kali dijalankan (proses booting), sistem operasi secara otomatis memuat dan menjalankan berbagai proses penting di latar belakang, bahkan sebelum pengguna melakukan login. Proses-proses ini adalah fondasi agar komputer dapat beroperasi. Berdasarkan materi Sesi 3, ini disebut sebagai inisialisasi sistem, yang merupakan salah satu cara proses dibuat.
+
+Menurut saya, proses-proses awal yang berjalan meliputi:
+
+a. Proses Inti (Kernel) dan Manajemen: Ini adalah proses-proses vital yang mengatur fungsi dasar komputer. Berdasarkan materi Sesi 2, ini mencakup proses untuk Manajemen Memori (mengalokasikan RAM) , Manajemen Proses (mengatur penjadwalan CPU) , dan Manajemen I/O (menyiapkan driver agar keyboard dan mouse siap digunakan).
+b. Proses Layanan (Services): Ini adalah program-program sistem yang berjalan otomatis untuk menyediakan layanan. Contohnya termasuk layanan jaringan (agar siap terhubung ke WiFi atau kabel LAN) , layanan proteksi dan keamanan (seperti firewall bawaan), dan layanan yang terkait dengan antarmuka pengguna.
+c. Command-Interpreter (Shell): Sistem operasi juga memuat proses yang disebut Command-Interpreter atau shell. Ini adalah proses yang bertugas menunggu perintah dari pengguna, yang dalam hal ini adalah menampilkan layar login dan menunggu kita memasukkan password.
+
+3. Menjalankan Musik Sambil Mengetik (Multitasking)
+Kemampuan komputer untuk melakukan beberapa hal sekaligus (seperti mendengarkan musik sambil mengetik) adalah salah satu fitur utama sistem operasi modern yang disebut keserempakan (concurrency) atau multitasking.
+
+Hal ini bisa terjadi karena sistem operasi sangat pintar dalam mengelola waktu prosesor (CPU). Berdasarkan materi Sesi 3, ada dua cara utama hal ini dapat terjadi:
+
+1) Multiprogramming (Sistem CPU Tunggal): Jika komputer hanya memiliki satu inti prosesor, sistem operasi akan beralih antar proses dengan sangat cepat. Ia akan memberi sedikit waktu CPU untuk proses pemutar musik, lalu sepersekian detik kemudian beralih ke proses aplikasi ketik (Word), lalu kembali lagi ke musik, dan seterusnya. Pergantian ini terjadi begitu cepat (dalam hitungan milidetik) sehingga bagi kita sebagai pengguna, kedua program itu terasa berjalan secara bersamaan.
+2) Multiprocessing (Sistem CPU Ganda/Multicore): Pada komputer modern yang memiliki lebih dari satu inti prosesor (multicore), sistem operasi dapat benar-benar menjalankan kedua proses itu secara paralel. Misalnya, proses musik dijalankan di Core 1, sementara proses mengetik dijalankan di Core 2.
+
+Selain itu, konsep Thread  juga berperan. Thread adalah "proses mini" di dalam sebuah proses. Aplikasi pemutar musik mungkin menggunakan satu thread untuk memutar lagu dan thread lain untuk merespon klik mouse kita (misal saat menekan tombol pause). Ini membuat aplikasi tetap responsif  dan tidak "macet" saat sedang bekerja.
+
+
+Sumber dan Referensi:
+- Materi Pengayaan MSIM4201 Sesi 1: Pengenalan Sistem Operasi.
+- Materi Pengayaan MSIM4201 Sesi 2: Komponen Sistem Operasi.
+- Materi MSIM4201 Modul 2: Struktur Sistem Operasi.
+- Materi Pengayaan MSIM4201 Sesi 3: Proses dan Thread.
+- BMP MSIM4201 Sistem Operasi, Universitas Terbuka.

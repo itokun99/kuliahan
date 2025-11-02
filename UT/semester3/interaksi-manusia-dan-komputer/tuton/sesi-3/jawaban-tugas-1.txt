@@ -1,0 +1,31 @@
+Nama        : INDRAWAN LISANTO 
+NIM         : 053724113 
+Mata Kuliah : Interaksi Manusia & Komputer (STSI4203) 
+Tugas       : 1
+
+1. Disiplin Ilmu dan Keterkaitannya dengan IMK
+- Disiplin Ilmu: Disiplin ilmu yang diminati oleh mahasiswa tersebut adalah Ilmu Komputer (Computer Science), dengan spesialisasi pada bidang Rekayasa Perangkat Lunak (Software Engineering) dan Pemrograman Web.
+- Keterkaitan dengan IMK: Keterkaitan antara Ilmu Komputer dan Interaksi Manusia & Komputer (IMK) sangat erat. Mahasiswa tersebut berfokus pada aspek teknis bagaimana sistem dibangun (logika, fungsionalitas, database, dan penulisan kode PHP). Ini adalah inti dari disiplin Ilmu Komputer. 
+
+IMK, di sisi lain, berfungsi sebagai jembatan yang menghubungkan sistem teknis tersebut dengan pengguna akhir. Berdasarkan materi Sesi 1, Ilmu Komputer adalah salah satu disiplin ilmu utama yang mendukung IMK, yang secara spesifik membahas "perancangan aplikasi dan rekayasa/perancangan antarmuka agar dapat digunakan oleh manusia dengan mudah".
+
+Artinya, seorang programmer web yang handal tidak cukup hanya menguasai coding PHP. Ia harus menerapkan prinsip-prinsip IMK untuk merancang antarmuka (UI) dan pengalaman pengguna (UX) yang baik. Tanpa IMK, website yang ia bangun mungkin fungsional, tetapi bisa jadi sangat sulit digunakan, membingungkan, atau tidak efisien bagi pengguna. IMK memastikan bahwa apa yang "direkayasa" oleh programmer dapat "berinteraksi" dengan baik dengan manusia.
+
+2. Analisis Kasus Model Mental
+
+- Ya, kasus tersebut telah sesuai dengan model mental saya sebagai pengguna smartphone modern.
+- Penjelasan: Berdasarkan materi Sesi 2, "Model Mental" adalah gambaran atau pemahaman kognitif yang dimiliki pengguna tentang bagaimana suatu sistem seharusnya bekerja. Ini adalah apa yang pengguna harapkan akan terjadi saat berinteraksi.
+
+Model mental saya untuk aplikasi "pintar" (smart) adalah aplikasi tersebut harus proaktif, kontekstual, dan mampu mengantisipasi kebutuhan saya untuk mengurangi beban kerja (beban kognitif).
+
+Dalam kasus ini:
+- Gol (Tujuan): Mengelola kontak baru (dari nomor tak dikenal) secara efisien.
+- Konteks: Baru saja menyelesaikan panggilan dengan nomor tak dikenal.
+
+Model mental saya secara logis mengharapkan sistem untuk mengenali konteks ini dan mengantisipasi tindakan saya selanjutnya, yaitu "menyimpan nomor ini". Fitur pop-up otomatis "Apakah nomor ini akan Anda simpan?" adalah "Gambaran Sistem" (System Image) yang sangat cocok dengan model mental saya.
+
+Kesesuaian ini sangat penting karena meminimalkan Jarak Pemisah Eksekusi (Gulf of Execution). Tanpa fitur ini, saya harus melakukan banyak langkah manual: membuka riwayat panggilan, menyalin nomor, membuka aplikasi kontak, menekan tombol "buat kontak baru", dan menempelkan nomor. Sistem yang proaktif seperti dalam kasus tersebut menghilangkan semua gesekan (friction) itu dan membuat interaksi menjadi jauh lebih efisien dan memuaskan.
+
+Referensi:
+- Universitas Terbuka. (2025). Materi Sesi 1 STSI4203: Faktor Manusia.
+- Universitas Terbuka. (2025). Materi Sesi 2 STSI4203: Kerangka Kerja dan Paradigma Interaksi.

@@ -1,0 +1,65 @@
+Nama: Indrawan Lisanto
+NIM: 053724113 
+Mata Kuliah: Rekayasa Perangkat Lunak (MSIM4303) 
+Tugas 1
+
+Berikut jawaban saya untuk tugas 1
+
+1. Perbedaan Produk Generik dan Produk Pesanan
+
+Dalam dunia rekayasa perangkat lunak, produk dapat dibedakan berdasarkan siapa yang memiliki inisiatif pembuatannya.
+
+- Produk Generik (Generic Product): Ini adalah perangkat lunak yang dikembangkan oleh developer atas inisiatif mereka sendiri untuk dijual secara bebas ke pasar umum. Pengembang melihat ada sebuah kebutuhan pasar, lalu mereka membuat produk untuk memenuhi kebutuhan tersebut tanpa ada pesanan spesifik dari pelanggan. Contoh yang paling sering kita gunakan adalah aplikasi perkantoran seperti Microsoft Office, sistem operasi seperti Windows atau Android, atau software desain grafis.
+
+- Produk Pesanan (Customized Product): Ini adalah kebalikannya, di mana perangkat lunak dibuat secara khusus karena adanya pesanan atau kontrak dari pelanggan atau instansi tertentu. Tujuan utamanya adalah untuk memenuhi kebutuhan proses bisnis yang sangat spesifik dari pelanggan tersebut. Sebagai contoh, sebuah universitas memesan sistem informasi akademik (SIA) yang alurnya dirancang khusus untuk aturan di universitas itu, atau sebuah perusahaan logistik memesan sistem pelacakan kargo internal.
+
+2. Model SDLC Waterfall
+
+a. Tahapan-tahapan Utama Model Waterfall
+
+Model Waterfall adalah salah satu model SDLC yang paling klasik dan bekerja secara sekuensial atau linear, mirip seperti air terjun. Artinya, satu tahapan harus selesai dikerjakan 100% sebelum bisa melanjutkan ke tahapan berikutnya. Tahapan-tahapannya meliputi:
+
+- Perencanaan (Planning): Mendefinisikan ruang lingkup, tujuan, dan kelayakan proyek.
+- Analisis (Analysis): Mengumpulkan dan menganalisis semua kebutuhan pengguna secara detail.
+- Perancangan (Design): Membuat rancangan teknis sistem, seperti arsitektur, database, dan antarmuka.
+- Implementasi (Implementation): Proses penulisan kode atau coding untuk membangun perangkat lunak.
+- Pengujian (Testing): Menguji perangkat lunak untuk menemukan bug dan memastikan sistem berjalan sesuai analisis kebutuhan.
+- Pemeliharaan (Maintenance): Perbaikan bug atau penyesuaian setelah sistem digunakan oleh user.
+
+b. Kelebihan dan Kekurangan Model Waterfall
+
+Meskipun model ini tergolong kaku, ia memiliki beberapa kelebihan namun juga kekurangan yang signifikan:
+
+- Kelebihan:
+-- Alurnya yang jelas dan satu arah membuatnya mudah dipahami dan dikelola, terutama untuk tim yang baru.
+-- Setiap tahapan memiliki milestone atau hasil akhir yang jelas (misalnya, dokumen analisis kebutuhan, dokumen desain), sehingga progres proyek mudah diukur.
+
+- Kekurangan:
+--Sifatnya yang sangat kaku (rigid). Jika ada perubahan kebutuhan dari pengguna di tengah-tengah proyek (misalnya di tahap implementasi), akan sangat sulit dan mahal untuk kembali ke tahap analisis.
+- Pengguna baru bisa melihat dan mencoba produk jadinya di akhir siklus. Hal ini sangat berisiko jika ternyata ada kesalahpahaman kebutuhan di awal, karena baru akan ketahuan setelah semuanya selesai dibuat.
+
+3. Teknik Pengumpulan Data untuk Sistem E-Learning
+
+Dalam studi kasus pengembangan sistem e-learning baru untuk universitas, tidak ada satu teknik tunggal yang "paling efektif" untuk semua stakeholder. Pilihan terbaik adalah menggunakan kombinasi dari ketiga teknik (wawancara, kuesioner, dan observasi), karena setiap kelompok stakeholder (mahasiswa, dosen, admin) memiliki kebutuhan dan karakteristik yang berbeda.
+
+Berikut adalah alasan dan cara penerapannya:
+
+- Untuk Dosen dan Admin (Stakeholder Kunci): Teknik Wawancara
+Alasan: Kebutuhan dari dosen (terkait materi ajar, penilaian) dan admin (terkait pengelolaan data) biasanya bersifat kompleks, spesifik, dan menyangkut alur kerja (workflow).
+Penerapan: Saya akan melakukan sesi wawancara mendalam (bisa semi-terstruktur) dengan perwakilan dosen dari berbagai fakultas dan juga dengan staf admin akademik. Tujuannya adalah untuk menggali "pain points" atau masalah utama yang mereka hadapi dengan sistem lama dan memahami proses bisnis yang mereka jalankan sehari-hari.
+
+- Untuk Mahasiswa (Pengguna Massal): Teknik Kuesioner
+Alasan: Jumlah mahasiswa sangat banyak, sehingga tidak mungkin mewawancarai semuanya. Kuesioner adalah cara paling efisien untuk mengumpulkan data kuantitatif dari sampel yang besar.
+Penerapan: Saya akan merancang kuesioner online dan menyebarkannya melalui portal mahasiswa. Pertanyaannya akan fokus pada kebiasaan penggunaan e-learning saat ini, fitur apa yang paling mereka sukai/benci, dan fitur baru apa yang mereka harapkan (misalnya: aplikasi mobile, gamifikasi, dll.).
+
+- Untuk Admin dan Dosen (Validasi Proses): Teknik Observasi
+Alasan: Kadang, apa yang dikatakan saat wawancara berbeda dengan apa yang sebenarnya dilakukan.
+Penerapan: Saya akan meluangkan waktu untuk "duduk di sebelah" beberapa admin dan dosen untuk mengamati secara langsung bagaimana mereka bekerja menggunakan sistem yang ada saat ini. Misalnya, mengamati bagaimana repotnya seorang dosen saat mengunggah nilai atau seorang admin saat mendaftarkan mata kuliah baru. Ini membantu menemukan langkah-langkah yang tidak efisien yang mungkin mereka sendiri tidak sadari.
+
+Dengan menggabungkan ketiga teknik ini, kita mendapatkan gambaran kebutuhan yang lengkap, baik dari sisi strategis (wawancara), data kuantitatif (kuesioner), maupun realitas di lapangan (observasi).
+
+Referensi:
+- Materi Pengayaan MSIM4303 Rekayasa Perangkat Lunak Sesi 1. Universitas Terbuka.
+- Materi Pengayaan MSIM4303 Rekayasa Perangkat Lunak Sesi 2. Universitas Terbuka.
+- Materi Pengayaan MSIM4303 Rekayasa Perangkat Lunak Sesi 3. Universitas Terbuka.
+- BMP UT Rekayasa Perangkat Lunak. Universitas Terbuka.

@@ -1,0 +1,26 @@
+Setelah membaca deskripsi proses bisnis pada studi kasus SIMPUS, saya mencoba memetakan komponen-komponen utamanya berdasarkan kaidah DFD yang ada di materi inisiasi. Menurut pemahaman saya, poin-poin kuncinya adalah sebagai berikut:
+
+1. Identifikasi Entitas eksternal
+Entitas eksternal adalah pihak-pihak di luar sistem yang menjadi sumber atau tujuan data. Dari kasus SIMPUS, saya mengidentifikasi tiga entitas:
+
+- Anggota: Menjadi sumber data saat mendaftar dan meminjam (memberikan data diri, kartu anggota), serta tujuan data saat menerima kartu anggota baru, bukti pinjam, atau informasi denda.
+- Petugas: Meskipun mereka adalah operator sistem, dalam konteks DFD mereka adalah entitas eksternal yang aktif memasukkan data (input) ke dalam sistem (data anggota baru, data pinjam, data kembali) dan menerima (output) berupa validasi atau informasi denda dari sistem.
+- Pimpinan: Ini adalah entitas yang murni menjadi tujuan data (sink), di mana ia hanya menerima output dari sistem berupa "Laporan Peminjaman".
+
+2. Identifikasi Proses Utama (Untuk DFD Level 1)
+Proses adalah aktivitas yang mengubah data. DFD Level 1 akan memecah proses besar "SIMPUS" menjadi sub-proses utama. Saya melihat ada 5 proses utama:
+
+- Proses Registrasi Anggota: Aktivitas ini mengubah data dari calon anggota menjadi "Kartu Anggota" dan menyimpannya ke data store.
+- Proses Pencarian Buku: Aktivitas ini memungkinkan anggota mencari ketersediaan buku.
+- Proses Transaksi Peminjaman: Aktivitas ini memvalidasi data anggota dan status buku, kemudian mencatat transaksi, dan mencetak "Bukti Pinjam".
+- Proses Transaksi Pengembalian: Aktivitas ini mencakup pengecekan keterlambatan, kalkulasi denda (jika ada), dan pencatatan pengembalian buku.
+- Proses Pembuatan Laporan: Aktivitas yang mengambil data dari simpanan data transaksi untuk diolah menjadi "Laporan Peminjaman" bagi pimpinan.
+
+3. Identifikasi Simpanan Data (Data Store)
+Simpanan data adalah tempat di mana data disimpan untuk diakses kembali nanti. Berdasarkan proses-proses di atas, sistem ini mutlak memerlukan beberapa data store:
+
+- Data Anggota: Dibutuhkan untuk menyimpan data anggota baru (dari Proses Registrasi) dan untuk dibaca (oleh Proses Peminjaman) saat validasi keanggotaan.
+- Data Buku: Dibutuhkan untuk dibaca oleh Proses Pencarian Buku dan Proses Peminjaman (untuk cek status ketersediaan).
+- Data Transaksi: Ini adalah data store vital untuk mencatat semua aktivitas peminjaman (ditulis oleh Proses Peminjaman) dan pengembalian (ditulis oleh Proses Pengembalian). Data store ini juga yang akan dibaca oleh Proses Pembuatan Laporan.
+
+Demikian analisis awal dari saya, mohon koreksi dan masukan dari rekan-rekan lainnya. Terima kasih.

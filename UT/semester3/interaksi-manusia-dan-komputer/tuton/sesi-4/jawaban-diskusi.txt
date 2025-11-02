@@ -1,0 +1,36 @@
+Jika saya seorang perancang perangkat keras, saya akan merancang piranti penunjuk yang berfokus untuk memaksimalkan directness (keterlibatan langsung)  sekaligus memberikan presisi tinggi. Piranti ini saya sebut "AcuThimble" (Bidik Jari).
+
+Bentuk Rancangan:
+AcuThimble bukanlah mouse atau sarung tangan penuh. Ini adalah perangkat kecil berbentuk seperti bidal (sarung jari) yang dikenakan di ujung jari telunjuk.
+
+Bodi Utama: Cangkang ringan yang pas di ujung jari.
+Sensor Gerak (Internal): Di dalam cangkang terdapat gyroscope dan accelerometer yang melacak pergerakan tangan di udara (seperti air mouse).
+Trackball Mikro (Eksternal): Di sisi samping perangkat (tepat di jangkauan ibu jari), terdapat sebuah bola lacak (trackball) berpresisi sangat tinggi.
+Sensor Tekanan (Ujung Jari): Ujung AcuThimble adalah sensor tekanan yang sensitif.
+
+Manipulasi Langsung yang Dapat Dikerjakan:
+Perangkat ini dirancang untuk mengatasi salah satu kerugian mouse (memerlukan permukaan) dan air mouse (kurang presisi). AcuThimble mendukung manipulasi langsung dengan cara berikut, sesuai dengan tiga elemen utama (penyajian visual, tindakan fisik, dan reaksi langsung):
+
+1. Penunjukan (Pointing) Hibrida:
+Tindakan Fisik: Pengguna dapat menggerakkan kursor secara cepat di layar hanya dengan menggerakkan tangan di udara (menggunakan sensor gyro). Ini menggantikan perintah teks dengan tindakan fisik.
+Tindakan Presisi: Untuk tugas yang butuh akurasi tinggi (seperti pada Computer-Aided Design atau editor teks ), pengguna dapat mengistirahatkan tangan mereka dan menggunakan ibu jari untuk menggerakkan trackball mikro. Ini adalah bentuk manipulasi isi yang sangat presisi.
+
+2. Klik (Clicking):
+Tindakan Fisik: Alih-alih tombol, pengguna cukup mengetukkan jari telunjuk (yang memakai AcuThimble) ke permukaan apa saja—meja, sandaran kursi, atau bahkan ke ibu jari mereka sendiri. Sensor tekanan di ujung akan mendeteksinya sebagai "klik".
+
+3. Geser dan Jatuhkan (Drag and Drop): Ini adalah contoh klasik manipulasi langsung. Prosesnya akan mengikuti tiga fase:
+Fase Bebas: Pengguna menunjuk objek (kursor di atas ikon).
+Fase Aktivasi: Pengguna mengetuk dan menahan sensor tekanan. Antarmuka akan memberi umpan balik visual bahwa objek telah "dipegang".
+Fase Penghentian : Pengguna menggeser tangan ke target (misal, kotak sampah ), lalu melepas tekanan pada sensor untuk "menjatuhkan" objek.
+
+
+4. Menggulir (Scrolling) dan Zoom:
+Tindakan Fisik: Gestur khusus akan digunakan. Misalnya, menggeser ibu jari pada trackball secara vertikal (tanpa menekannya) akan berfungsi sebagai scroll wheel. Untuk zoom, pengguna dapat menahan tombol sekunder dengan ibu jari sambil menggerakkan tangan maju/mundur.
+Rancangan ini bertujuan untuk mempersingkat "jarak" kognitif dengan membuat gerakan menunjuk terasa alami seperti menunjuk di dunia nyata, namun tetap memberikan alat presisi (trackball) yang dibutuhkan untuk manipulasi isi yang kompleks.
+
+
+Terima kasih.
+
+Referensi:
+- Universitas Terbuka. (2025). Materi Sesi 4 STSI4203: Manipulasi Langsung.
+- e-Learning UT. (2025). Materi 4 IMK: Manipulasi Langsung. [Video YouTube]. Diakses dari https://www.youtube.com/watch?v=jyZsVGYJCm4.

@@ -1,0 +1,29 @@
+Izin menjawab diskusi Sesi 4.
+
+Permasalahan critical section (bagian kritis) ini pada dasarnya adalah masalah "rebutan" sumber daya. Ini adalah tantangan yang muncul ketika kita punya banyak proses yang berjalan secara bersamaan (konkuren) dan mereka semua perlu mengakses atau mengubah satu data yang sama pada waktu yang bersamaan.
+
+
+Bagian dari kode program yang dipakai untuk mengakses data bersama (seperti variabel, file, atau tabel) itulah yang disebut critical section. Masalahnya timbul jika dua atau lebih proses masuk ke bagian kritis itu di saat yang sama.
+
+
+
+Contoh gampangnya: Bayangkan ada dua loket (Proses A dan Proses B) yang mengakses sistem inventaris tiket untuk satu kursi terakhir (ini adalah data bersama).
+
+1. Proses A (Loket A) mengecek, "Sisa tiket: 1.".
+2. Tepat pada saat yang sama, sebelum Proses A sempat mengubah jumlah tiket menjadi 0, Proses B (Loket B) juga mengecek, "Sisa tiket: 1.".
+3. Proses A menjual tiket ke pelanggannya.
+4. Proses B juga menjual tiket yang sama ke pelanggannya.
+
+Hasilnya? Datanya jadi kacau balau atau inconsistent. Ada dua pelanggan yang memegang tiket untuk satu kursi yang sama. Situasi "siapa cepat dia dapat" yang hasilnya tidak terduga inilah yang disebut race condition.
+
+Jadi, "permasalahan critical section" adalah bagaimana cara kita merancang sebuah protokol atau aturan main  agar "rebutan" ini tidak terjadi dan data tetap aman.
+
+Menurut materi, solusi yang baik untuk masalah ini harus memenuhi tiga syarat utama:
+1. Mutual Exclusion (Harus Gantian): Ini adalah syarat mutlak. Jika ada satu proses yang sedang berada di critical section-nya, maka tidak boleh ada proses lain yang bisa masuk ke critical section mereka. Proses lain wajib menunggu.
+2. Progress (Tidak Boleh Macet): Jika critical section sedang kosong (tidak ada proses di dalamnya) dan ada beberapa proses yang ingin masuk, maka proses pemilihan siapa yang boleh masuk berikutnya tidak boleh ditunda tanpa batas.
+3. Bounded Waiting (Antrean yang Adil): Harus ada batasan yang jelas berapa lama suatu proses harus menunggu giliran untuk mengakses critical section. Ini penting untuk menjamin semua proses dapat giliran dan tidak ada proses yang "kelaparan" (starvation) atau menunggu selamanya.
+
+Sumber Referensi:
+- Materi Pengayaan MSIM4201 Sesi 4: Manajemen Proses (Synchronization dan Scheduling)
+- BMP MSIM4201 Sistem Operasi, Universitas Terbuka
+- Forum Diskusi Sesi 4

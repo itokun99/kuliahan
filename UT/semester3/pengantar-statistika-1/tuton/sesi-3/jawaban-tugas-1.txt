@@ -1,0 +1,19 @@
+Nama: INDRAWAN LISANTO
+NIM: 053724113
+
+1. Ukuran Pemusatan untuk Data Pendapatan
+Pertanyaan: Apabila ingin diperoleh gambaran mengenai besarnya pendapatan masyarakat di Desa Bakti Mulya, ukuran apakah yang digunakan? Jelaskan jawaban Anda!
+
+Jawaban:
+Ukuran pemusatan yang paling tepat untuk digunakan adalah Median.
+
+Alasan:
+1) Adanya Data Ekstrem (Outlier): Data pendapatan yang disajikan memiliki nilai-nilai yang sangat jauh berbeda dari sebagian besar data. Mayoritas pendapatan berada di bawah Rp 1.000.000, namun terdapat beberapa nilai ekstrem yang sangat tinggi, yaitu Rp 2.000.000, Rp 2.350.000, Rp 10.000.000, dan Rp 15.000.000.
+2) Kelemahan Mean (Rata-rata): Jika kita menggunakan Mean (rata-rata), nilai mean akan sangat terpengaruh (tertarik ke atas) oleh data-data ekstrem tersebut. Hal ini akan menghasilkan gambaran pendapatan yang "bias" dan tidak mewakili kondisi ekonomi sebagian besar penduduk.
+3) Keunggulan Median: Median adalah nilai tengah data setelah diurutkan. Median tidak sensitif terhadap nilai ekstrem (bersifat robust), sehingga lebih akurat dalam menggambarkan titik pusat atau "pendapatan tipikal" dari mayoritas penduduk di Desa Bakti Mulya.
+
+------------------------------------------------
+
+2. Analisis Data Penjualan Harian (Data Berkelompok)
+Diketahui tabel distribusi frekuensi:
+

@@ -1,0 +1,16 @@
+Salam jumpa mahasiswa/i dimanapun Anda berada, semoga dalam keadaan sehat.
+
+Sekarang kita berada di Sesi 3 kegiatan Tuton mata kuliah IMK. Semoga Anda selalu sehat dan selalu bersemangat dalam menanggapi diskusi dan mengerjakan Tugas 1 di sesi ini.
+
+Materi yang akan dibahas pada Sesi 3 yaitu mengenai kesalahan klasik dan kepuasan berinteraksi, kebergunaan. Informasi sumber belajar utama terdapat pada Modul 4 dalam Buku Materi Pokok (BMP)  MSIM4208/Interaksi Manusia dan Komputer.
+
+Sedangkan capaian pembelajaran khusus pada sesi ini, diharapkan mahasiswa/i mampu:
+
+1. menjelaskan kesalahan umum yang sering dilakukan oleh perancang sistem;
+2. menjelaskan kriteria penting untuk menentukan kebergunaan dari suatu sistem;
+3. menjelaskan definisi kebergunaan suatu sistem;
+4. menjelaskan uji kebergunaan;
+5. menjelaskan teknik untuk melakukan uji kebergunaan.
+Untuk itu, silahkan Anda perhatikan seluruh materi yang telah diberikan agar dapat lebih memahami materi pada Sesi 3 ini. Jangan lupa juga untuk selalu aktif memberikan tanggapan dalam Forum Diskusi.
+
+Selamat belajar dan tetap semangat...

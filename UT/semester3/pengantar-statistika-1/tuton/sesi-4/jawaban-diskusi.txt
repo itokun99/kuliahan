@@ -1,0 +1,55 @@
+Nama: INDRAWAN LISANTO
+NIM: 053724113
+
+Soal Nomor 1: Analisis Studi Kasus Distribusi Diskret
+Berikut adalah identifikasi distribusi, alasan, dan ruang sampel untuk setiap studi kasus.
+
+Studi Kasus 1: Perpustakaan
+Distribusi: Hipergeometrik
+Alasan: Pengambilan sampel (n=50) dilakukan tanpa pengembalian dari populasi terbatas (N=500) yang memiliki dua kategori (40 rusak, 460 tidak).
+Ruang Sampel: S = {0, 1, 2, ..., 40}
+
+Studi Kasus 2: Tap e-money
+Distribusi: Bernoulli
+Alasan: Merupakan satu kali percobaan ("satu kali kejadian") yang hanya memiliki dua kemungkinan hasil (Sukses atau Gagal).
+Ruang Sampel: S = {Sukses, Gagal}
+
+Studi Kasus 3: Pelanggan Kopi
+Distribusi: Poisson
+Alasan: Menghitung jumlah kejadian (pelanggan) dalam interval waktu tertentu ("setiap jam") dengan laju rata-rata yang diketahui.
+Ruang Sampel: S = {0, 1, 2, 3, ...}
+
+Studi Kasus 4: Pekerja Kantoran
+Dstribusi: Binomial
+Alasan: Terdapat jumlah percobaan tetap (n=20 hari), setiap percobaan independen, memiliki dua hasil (tepat waktu/terlambat), dan menghitung total sukses.
+Ruang Sampel: S = {0, 1, 2, ..., 20}
+
+----------------------
+
+Soal Nomor 2: Analisis Call Center (Distribusi Poisson)
+Diketahui rata-rata kedatangan panggilan adalah λ = 12 panggilan per jam.
+
+a. Peluang paling banyak 4 panggilan dalam 30 menit pertama
+1. Sesuaikan Rata-rata (λ): interval waktu yang diamati adalah 30 menit (0,5 jam), sehingga λ = 12 * 0,5 = 6 panggilan per 30 menit.
+
+2. Hitung Peluang P(X <= 4): Kita mencari
+P(x <= 4) = P (X = 0) + P (X = 1) + P (X = 2) + P (X = 3) + P (X = 4). Menggunakan rumus distribusi Poisson: P (X = k) = (e^(-λ) * λ^k) / k!:
+P(X <= 4) = e^(-6) * (6^0/0! + 6^1/1! + 6^2/2! + 6^3/3! + 6^4/4!)
+P(X <= 4) = e^(-6) * (1 + 6 + 18 + 36 + 54) = e^(-6) * 115
+P(X <= 4) ≈ 0.00247875 * 115 ≈ 0.2851
+Jadi, peluang paling banyak 4 panggilan dalam 30 menit pertama adalah sekitar 0.2851 atau 28.51%.
+
+b. Peluang 8 panggilan (30 menit pertama) DAN 6 panggilan (30 menit kedua)
+1. Konsep: Kejadian dalam dua interval waktu yang tidak tumpang tindih (30 menit pertama dan 30 menit kedua) pada proses Poisson adalah independen.
+2. Parameter untuk setiap interval: λ = 6 panggilan per 30 menit.
+3. Hitung Peluang untuk Setiap Interval: P(X1 = 8) dan P(X2 = 6) = P(X1 = 8) * P(X2 = 6)
+- P(X1 = 8): P(X1 = 8) = (e^(-6) * 6^8) / 8! = e^(-6) * 1679616 / 40320 ≈ 0.1033
+- P(X2 = 6): P(X2 = 6) = (e^(-6) * 6^6) / 6! = e^(-6) * 46656 / 720 ≈ 0.1606
+P(Gabungan) = P(X1 = 8) * P(X2 = 6) ≈ 0.1033 * 0.1606 ≈ 0.0166
+
+Jadi peluang mendapatkan 8 panggilan pada 30 menit pertama dan 6 panggilan pada 30 menit kedua adalah sekitar 0.0166 atau 1.66%.
+
+Referensi
+- Materi Inisiasi Sesi 4 - Distribusi Peluang Diskret.pdf
+- Materi Pengayaan Sesi 4 - Variabel Random Khusus.pdf
+- Sutikno, & Ratnaningsih, D. J. (2022). Metode Statistika I (BMP MKKI4201). Tangerang Selatan: Universitas Terbuka.
