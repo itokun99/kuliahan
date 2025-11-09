@@ -1,0 +1,24 @@
+Izin menanggapi pertanyaan diskusi untuk Sesi 5.
+
+Dalam memilih platform atau tools digital untuk membuat media pembelajaran, kriteria utamanya bukan hanya soal kecanggihan fitur, tetapi lebih kepada kesesuaian atau "tepat guna". Media adalah alat untuk menyampaikan pesan, sehingga alat tersebut harus benar-benar membantu proses belajar.
+
+Berdasarkan materi Ragam Media Pembelajaran, ada beberapa pertimbangan utama:
+
+1. Tujuan Pembelajaran: Ini yang paling penting. Kita harus tahu apa yang ingin dicapai: apakah itu pemahaman kognitif, afektif, atau psikomotor? Media yang dipilih harus bisa mendukung pencapaian tujuan tersebut.
+
+2. Kesesuaian dengan Materi: Apakah tools tersebut cocok untuk materi yang diajarkan? Misalnya, untuk menjelaskan konsep abstrak seperti anatomi virus, media visual (gambar) atau video jauh lebih efektif daripada audio saja.
+
+3. Karakteristik Audiens (Peserta Didik): Kita perlu mempertimbangkan siapa yang akan menggunakannya. Seperti yang juga disinggung rekan Nino Rachimas, gaya belajar mahasiswa berbeda-beda (visual, auditori, kinestetik). Tools yang baik idealnya bisa mengakomodasi keragaman ini.
+
+4. Kesiapan Pengajar dan Sarana: Ini juga krusial. Secanggih apapun tools-nya, kalau pengajarnya tidak mampu mengoperasikannya, media itu tidak akan efektif. Selain itu, kita harus realistis dengan ketersediaan sarana dan prasarana pendukung, seperti koneksi internet atau spesifikasi komputer.
+
+Saya juga setuju dengan pendapat rekan-rekan lain, seperti Samuel dan Putri Gayatri, yang menyoroti kriteria teknis tambahan yang sangat relevan di era digital ini:
+
+Kemudahan Penggunaan (User-Friendly): Platform harus intuitif. Materi Sesi 5 ini mencontohkan Ms. Sway, yang dirancang untuk storytelling dan relatif mudah digunakan. Interaktivitas: Media yang baik harus bisa melibatkan peserta didik secara aktif, tidak only pasif. Fitur seperti kuis, forum, atau simulasi (seperti pada CBT) sangat membantu. Aksesibilitas dan Biaya: Seperti yang disoroti rekan Khairatun dan Samuel, platform harus bisa diakses dari berbagai perangkat (kompatibilitas) dan biayanya terjangkau.
+
+Jadi, kesimpulannya, tidak ada satu tools yang "terbaik" untuk semua situasi. Pemilihan tools digital harus merupakan hasil pertimbangan yang cermat antara tujuan pedagogis, karakteristik materi, kebutuhan siswa, dan ketersediaan sumber daya (teknis, biaya, dan kemampuan pengajar).
+
+Referensi:
+- Materi Inisiasi Sesi 5: Pemilihan Media Pembelajaran, Prinsip Pembelajaran Multi Media, Digital Storytelling dengan Microsoft SWAY.
+- Materi Presentasi: WLYS-Ragam Media.pptx.
+- Forum Diskusi 5: Jawaban diskusi sesi 5 teman-teman UT .

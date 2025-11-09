@@ -1,0 +1,42 @@
+Sebagai perancang, untuk formulir identitas yang kompleks seperti ini, saya akan berfokus pada alur yang terstruktur agar tidak membebani pengguna.
+
+1. Rancangan Tampilan
+Saya akan menggunakan skema Menu Kombinasi, yaitu menggabungkan Menu Linear (Deret Linear) dengan Menu Datar sebagai navigasi.
+Struktur utama rancangan saya adalah Menu Linear (Deret Linear). Ini artinya, pengguna akan dipandu langkah demi langkah (seperti "wizard") untuk mengisi data, bukan menampilkan semua formulir dalam satu halaman panjang.
+
+Urutan linearnya adalah: 
+- Langkah 1: Data Pribadi 
+- Langkah 2: Pendidikan 
+- Langkah 3: Pengalaman Organisasi 
+- Langkah 4: Pengalaman Kerja
+
+Sebagai navigasi visual, saya akan menggunakan Menu Datar (Flat Menu)  di bagian atas halaman yang ditampilkan sebagai "Tab". Ini akan berfungsi sebagai indikator progres sekaligus navigasi.
+
+
+Contoh Tampilan (saat di Langkah 1):
+
+FORMULIR IDENTITAS DIRI
+===============================
+[ (1) Data Pribadi ] [ 2. Pendidikan ] [ 3. Organisasi ] [ 4. Kerja ]
+(Area formulir untuk Data Pribadi) 
+Nama Lengkap: [__________________] 
+Jenis Kelamin: [Menu Kotak Kombo ▼]
+
+[ Tombol: Lanjut ke Pendidikan > ]
+
+2. Penjelasan Setiap Komponen
+- Menu Datar (Tabs): Komponen ini  berfungsi ganda. Pertama, sebagai indikator progres visual (pengguna tahu mereka ada di langkah 1 dari 4). Kedua, sebagai navigasi. Tab yang aktif (misal "Data Pribadi") akan terlihat menonjol. Pengguna juga bisa mengklik tab yang sudah selesai (misal kembali ke "Data Pribadi" dari "Pendidikan") untuk mengedit data.
+- Menu Linear (Tombol Navigasi): Tombol "Lanjut" dan "Kembali" adalah inti dari Menu Linear. Ini menuntun pengguna secara berurutan dan memastikan tidak ada langkah yang terlewat.
+- Menu Kotak Kombo (Combo Box): Seperti pada rancangan di atas, ini akan saya gunakan untuk pilihan yang pilihannya sudah pasti atau cukup panjang namun memakan tempat, seperti "Jenis Kelamin" atau "Jenjang Pendidikan" (S1, S2, D3).
+- Menu Gulung (Scroll Menu): Jika ada pilihan yang sangat panjang (misal, memilih "Nama Universitas" dari daftar yang ada), Menu Gulung akan dipakai di dalam Kotak Kombo.
+
+3. Alasan Pemilihan Organisasi Menu
+Saya memilih kombinasi Menu Linear yang dinavigasi oleh Menu Datar (Tabs) karena:
+
+- Mengurangi Beban Kognitif Pengguna: Tugas mengisi 4 kategori data sekaligus sangat membebani. Materi Sesi 5 menjelaskan bahwa menu pilihan sederhana sangat efektif untuk pengguna yang memerlukan bantuan dalam menstrukturkan proses pengambilan keputusan. Dengan memecah formulir menjadi 4 langkah linear, tugas yang besar terasa lebih ringan.
+- Mencegah Disorientasi (Tersesat): Menggunakan struktur yang lebih kompleks seperti Menu Jaring Berputar berisiko tinggi membuat pengguna bingung atau "tersesat". Alur linear sangat kaku dan jelas. Menu Datar (Tabs) di atas bertindak seperti Menu Breadcrumb , yang membantu pengguna memahami posisi mereka saat ini dalam struktur.
+- Alur yang Logis dan Terorganisir: Pengorganisasian menu ini (Pribadi -> Pendidikan -> Organisasi -> Kerja) mengikuti alur kronologis yang logis. Ini membantu pengguna dalam menstrukturkan data mereka dengan mudah.
+
+Referensi:
+- Universitas Terbuka. (2025). Materi Sesi 5 STSI4203: Antarmuka Berbasis Menu.
+- Universitas Terbuka. (2025). Pengantar Sesi 5 - IMK.

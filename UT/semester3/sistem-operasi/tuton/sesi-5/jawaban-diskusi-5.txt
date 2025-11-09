@@ -1,0 +1,18 @@
+
+Izin menjawab diskusi Sesi 5.
+
+Gambar tersebut menjelaskan alur penanganan Page Fault (kesalahan halaman). Ini adalah mekanisme inti dari Memori Virtual dan Demand Paging, yang terjadi ketika CPU mencoba mengakses halaman memori yang belum ada di memori fisik (RAM).
+
+
+Berikut adalah deskripsi alur jalannya instruksi berdasarkan gambar:
+1. Reference (Langkah 1) Proses dimulai ketika CPU mencoba menjalankan sebuah instruksi (misalnya, instr 2) yang merujuk ke alamat logis di halaman 35. Untuk menerjemahkan alamat logis ini, perangkat keras akan memeriksa Page Table (Tabel Halaman).
+2. Trap (Langkah 2) Saat memeriksa Page Table, perangkat keras melihat bahwa entri untuk halaman 35 ditandai sebagai invalid ("I"). Ini menandakan bahwa halaman yang dicari tidak ada di memori fisik. Kegagalan ini segera memicu trap (sebuah interupsi) ke Sistem Operasi (OS).
+3. Pengecekan oleh OS (Langkah 3) Sistem Operasi mengambil alih kendali. OS akan memeriksa tabel internalnya sendiri untuk memastikan apakah alamat tersebut legal atau tidak. Dalam kasus ini, OS menentukan bahwa halaman tersebut legal, tetapi saat ini sedang berada di Secondary Storage (penyimpanan sekunder, seperti hard disk).
+4. Bring in Missing Page (Langkah 4) OS kemudian mencari Free Frame (bingkai kosong) di dalam memori fisik. Setelah menemukan frame kosong, OS menjadwalkan operasi I/O untuk menyalin "halaman yang hilang" (missing page) dari secondary storage ke dalam frame kosong tersebut.
+5. Reset Page Table (Langkah 5) Setelah operasi I/O selesai dan halaman berhasil dimuat ke memori fisik, OS akan memperbarui Page Table. Entri untuk halaman 35 kini diubah dari invalid ("I") menjadi valid ("V") dan dicatat nomor framenya di memori fisik.
+6. Restart Instruction (Langkah 6) Terakhir, OS mengembalikan kontrol ke proses yang tadi diinterupsi. Instruksi yang sebelumnya gagal (yaitu instr 2) akan dijalankan ulang (restart). Kali ini, saat perangkat keras memeriksa Page Table, entri halaman 35 sudah valid, dan instruksi dapat dieksekusi dengan sukses. Proses kemudian berlanjut ke instruksi berikutnya.
+
+
+Sumber Referensi:
+1. Materi Pengayaan MSIM4201 Sesi 5: Manajemen Memori (Caching dan Virtual Memory)
+2. Forum Diskusi 5 Sistem Operasi - Jawaban dari rekan mahasiswa lainnya.
