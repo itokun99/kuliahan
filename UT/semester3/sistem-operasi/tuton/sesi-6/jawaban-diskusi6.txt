@@ -1,0 +1,33 @@
+1. Apa yang Dimaksud dengan Berkas?
+
+Secara sederhana, **berkas** (atau *file*) adalah kumpulan data atau informasi yang saling berhubungan, diberi nama, dan disimpan di dalam media penyimpanan. Berkas ini adalah cara kita menyimpan data secara permanen, entah itu berupa dokumen teks, grafik, database, atau suara.
+
+Setiap berkas memiliki **atribut** yang menjelaskannya, seperti **Nama** (agar mudah diidentifikasi), **Tipe** (agar sistem tahu cara membukanya, misal `.txt` atau `.jpg`), **Ukuran**, **Lokasi** penyimpanannya, **Tanggal** (kapan dibuat atau diubah), dan **Proteksi** (siapa yang boleh membaca atau mengubahnya).
+
+### 2. Sistem Berkas pada Windows dan UNIX
+
+Sistem berkas adalah struktur atau metode yang dipakai sistem operasi untuk mengatur, menyimpan, dan mengelola berkas-berkas di dalam media penyimpanan.
+
+**Sistem Berkas pada Windows**
+
+- **Sistem Berkas Utama:** Windows modern menggunakan **NTFS** (New Technology File System). Sistem yang lebih lama menggunakan **FAT32**, yang masih sering dipakai untuk flashdisk.
+- **Struktur Direktori:** Ciri khas Windows adalah penggunaan **huruf drive** (drive letter) untuk setiap partisi atau perangkat penyimpanan (misalnya `C:`, `D:`, `E:`).
+- **Pemisah Path:** Windows menggunakan tanda **backslash (`\`)** untuk memisahkan folder dalam sebuah alamat (contoh: `C:\Users\Indrawan`).
+
+**Sistem Berkas pada UNIX (Termasuk Linux)**
+
+- **Sistem Berkas Utama:** UNIX dan turunannya menggunakan berbagai sistem berkas seperti **ext4**, **XFS**, atau **Btrfs**.
+- **Struktur Direktori:** Ciri khas utamanya adalah satu **struktur pohon tunggal** yang dimulai dari akar (root) yang dilambangkan dengan **garis miring (`/`)**. Tidak ada konsep huruf drive; semua perangkat (termasuk hard disk lain atau flashdisk) akan "dipasang" (mounted) ke dalam sebuah direktori di bawah `/`.
+- **Pemisah Path:** UNIX menggunakan tanda **forward slash (`/`)** sebagai pemisah (contoh: `/home/indrawan`).
+
+### 3. Perbandingan Sistem Berkas Windows dan UNIX
+
+Meskipun sama-sama berfungsi untuk mengelola berkas, sistem berkas pada Windows (seperti NTFS) dan UNIX (seperti ext4) memiliki perbedaan filosofi dan teknis yang mendasar:
+
+- **Struktur Dasar dan Path**
+Perbedaan paling mencolok adalah pada strukturnya. Windows menggunakan sistem **huruf drive** (drive letter) untuk setiap partisi, seperti `C:` atau `D:`, di mana setiap drive memiliki *root*nya sendiri. Sebaliknya, UNIX menggunakan **struktur pohon tunggal** di mana semuanya dimulai dari satu *root* (akar) yaitu **`/`**. Semua partisi atau perangkat lain (seperti flashdisk) akan "dipasang" (mounted) ke dalam sebuah direktori di bawah *root* tunggal tersebut.
+- **Pemisah Direktori**Untuk memisahkan direktori dalam sebuah alamat *path*, Windows menggunakan tanda **backslash (`\`)**. Sementara itu, UNIX menggunakan tanda **forward slash (`/`)**.
+    - Contoh Windows: `C:\Users\Indrawan`
+    - Contoh UNIX: `/home/indrawan`
+- **Sensitivitas Huruf (Case Sensitivity)**Sistem berkas Windows pada umumnya bersifat **tidak case-sensitive**. Ini berarti nama berkas `Laporan.txt` dan `laporan.txt` dianggap sebagai berkas yang sama. Sebaliknya, sistem berkas UNIX bersifat **case-sensitive** , yang berarti `Laporan.txt` dan `laporan.txt` adalah dua berkas yang کاملاً berbeda.
+- **Hak Akses (Proteksi)**Kedua sistem operasi memiliki cara berbeda dalam mengatur proteksi berkas. Windows (NTFS) menggunakan model **Access Control List (ACL)**, yang sangat rinci dan kompleks dalam menentukan izin untuk setiap pengguna atau grup. UNIX menggunakan model yang lebih sederhana namun kuat, yaitu izin **Read, Write, dan Execute (rwx)** yang dibagi untuk tiga kategori: **User (Pemilik), Group (Grup), dan Others (Lainnya)**.

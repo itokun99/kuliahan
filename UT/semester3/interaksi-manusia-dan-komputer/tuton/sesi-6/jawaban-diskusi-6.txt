@@ -1,0 +1,31 @@
+Sesuai materi Sesi 6, dialog berbasis bahasa alami memungkinkan pengguna memberikan instruksi dalam bahasa yang lebih umum dan "manusiawi", bukan perintah kaku. Sistem kemudian harus mampu mengolah bahasa tersebut untuk mengetahui artinya (semantik).
+Berikut adalah rancangan tampilan dialog berbasis bahasa alami untuk pembelian buku online, sesuai alur yang diminta dalam soal diskusi:
+
+(Tampilan antarmuka berupa jendela percakapan/chatbot)
+
+Sistem: "Halo! Selamat datang di Toko Buku Pintar. Saya siap membantu Anda. Kami memiliki beberapa kategori buku yang tersedia:
+- Teknologi
+- Bisnis & Ekonomi
+- Fiksi (Novel)
+- Pendidikan 
+Kategori mana yang Anda minati?"
+
+Pengguna: "Saya sedang cari buku tentang Teknologi."
+Sistem: "Baik, untuk kategori Teknologi, kami punya beberapa judul populer: 
+a) 'Dasar-Dasar Jaringan Komputer' 
+b) 'Pengantar Kecerdasan Buatan (AI)' 
+c) 'Interaksi Manusia dan Komputer' 
+
+Judul mana yang ingin Anda ketahui lebih lanjut?"
+
+Pengguna: "Tolong berikan info untuk buku Interaksi Manusia dan Komputer."
+Sistem: "Tentu. Berikut adalah detail untuk buku 'Interaksi Manusia dan Komputer':
+
+Jumlah tersedia: 20 buah
+Harga: Rp 135.000 Apakah Anda ingin memesan buku ini?"
+
+Pengguna: "Ya, saya mau pesan satu buku."
+Sistem: "Baik, pesanan untuk 1 (satu) buku 'Interaksi Manusia dan Komputer' dengan harga Rp 135.000 telah ditambahkan ke keranjang Anda. Terima kasih!"
+
+Referensi:
+- Universitas Terbuka. (2025). Materi Sesi 6 STSI4203: Dialog Berbasis Teks dan Pengisian Borang.

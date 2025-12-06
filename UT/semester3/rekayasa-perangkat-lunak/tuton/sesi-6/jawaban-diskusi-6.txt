@@ -1,0 +1,23 @@
+Setelah membaca studi kasus startup media sosial "Sociabuzz", saya ingin menyampaikan pandangan saya mengenai pendekatan pengembangannya.
+
+1. Pendekatan Plan-Based vs. Agile
+
+Menurut saya, pendekatan Agile adalah satu-satunya pilihan yang masuk akal untuk kasus ini.
+Alasannya, "Sociabuzz" adalah sebuah startup di pasar media sosial yang sangat kompetitif dan dinamis. Kebutuhan dan tren pengguna di pasar ini bisa berubah dalam hitungan minggu. Jika kita menggunakan pendekatan Plan-Based (seperti Waterfall), kita dipaksa untuk mendefinisikan semua kebutuhan secara kaku di awal. Ini sangat tidak realistis. Kita akan menghabiskan berbulan-bulan membangun fitur yang mungkin sudah tidak relevan saat diluncurkan.
+Pendekatan Agile, sejalan dengan nilai-nilai dalam manifestonya, justru "menanggapi perubahan". Agile memungkinkan "Sociabuzz" untuk merilis fitur inti dengan cepat, mendapatkan umpan balik langsung dari pengguna, dan kemudian beradaptasi di siklus pengembangan berikutnya. Hal ini juga sejalan dengan pendapat rekan kita (Mahasiswa A dan B) yang menekankan pentingnya adaptasi.
+
+2. Pemilihan Metode Agile: Scrum atau XP?
+
+Ini adalah pilihan yang lebih sulit karena keduanya sangat bermanfaat. Rekan kita (Mahasiswa A) menyarankan Scrum karena kemampuannya mengelola backlog fitur, sementara rekan (Mahasiswa B) menyarankan XP untuk menjaga kualitas teknis. Keduanya benar.
+Namun, jika dilihat dari kebutuhan startup, saya berpendapat bahwa kombinasi keduanya adalah yang paling ideal.
+Kita dapat menggunakan Scrum sebagai kerangka kerja manajemen proyek. Dengan Scrum, "Sociabuzz" dapat memiliki seorang Product Owner yang mengelola Product Backlog (tumpukan ide fitur yang pasti akan sangat banyak). Mereka bisa bekerja dalam Sprint 2 mingguan untuk merilis fungsionalitas baru secara teratur dan mendapatkan feedback cepat melalui Sprint Review.
+Di saat yang sama, di dalam Sprint tersebut, tim developer bisa menerapkan praktik-praktik teknis dari Extreme Programming (XP). Untuk aplikasi media sosial yang butuh keandalan tinggi, praktik seperti Test-Driven Development (TDD), Pair Programming, dan Continuous Integration (CI) dari XP akan sangat membantu menjaga kualitas kode dan mencegah sistem crash saat jumlah pengguna bertambah.
+Jadi, Scrum dipakai untuk mengatur apa yang harus dikerjakan dan kapan, sementara XP dipakai untuk mengatur bagaimana mengerjakannya dengan kualitas terbaik.
+
+Terima kasih.
+
+Referensi:
+- Materi Pengayaan MSIM4303 Rekayasa Perangkat Lunak Sesi 6. Universitas Terbuka.
+- Forum Diskusi Sesi 6, Universitas Terbuka.
+- Tanggapan Diskusi Sesi 6.
+

@@ -1,0 +1,30 @@
+Di era post-truth saat ini, di mana informasi yang salah (hoaks) sering menyebar lebih cepat daripada fakta, kemampuan mencari informasi yang relevan dan akurat adalah keterampilan literasi informasi yang paling mendasar.
+
+Untuk mendapatkan informasi yang efektif, saya akan menggabungkan dua langkah utama: teknik pencarian teknis dan evaluasi kritis.
+
+1. Menggunakan Teknik Pencarian Teknis
+
+Saya setuju dengan rekan-rekan seperti Tio, Seni, dan Medal, bahwa langkah awal adalah menggunakan mesin pencari secara cermat, tidak hanya mengetik kata kunci umum. Teknik yang saya gunakan:
+- Kata Kunci Spesifik: Menggunakan frasa yang jelas dan fokus, bukan kata yang terlalu umum. Contoh: Daripada mencari "pendidikan", saya akan mencari "dampak pembelajaran digital terhadap motivasi mahasiswa".
+- Menggunakan Tanda Kutip (" "): Untuk mencari frasa yang utuh dan persis. Contoh: "jurnalisme warga" akan memberikan hasil yang jauh lebih relevan daripada jurnalisme warga tanpa tanda kutip.
+- Menggunakan Operator Minus (-): Untuk mengecualikan kata yang tidak diinginkan dari hasil pencarian. Contoh: "literasi digital -media sosial" jika saya ingin mencari informasi literasi digital yang tidak terkait media sosial.
+- Menggunakan Operator Khusus "site:" : Ini adalah teknik terpenting untuk memastikan akurasi. Saya membatasi pencarian hanya pada domain situs yang saya percaya, seperti domain akademik (.ac.id) atau pemerintah (.go.id). Contoh: "kurikulum merdeka site:kemdikbud.go.id".
+- Menggunakan Operator khusus "filetype:" : Sangat berguna untuk mencari dokumen resmi, laporan, atau jurnal ilmiah. Contoh: "strategi belajar mandiri filetype:pdf".
+
+
+2. Menerapkan Evaluasi Kritis (Literasi Informasi)
+Setelah hasil pencarian muncul, teknik terpenting adalah evaluasi, yang merupakan inti dari literasi informasi. Saya tidak akan langsung percaya, terutama jika sumbernya berasal dari media sosial yang merupakan saluran hoaks terbesar.
+
+a. Mempertimbangkan Sumber (Consider the source): Apakah sumber ini kredibel?. Saya akan lebih memercayai jurnal ilmiah atau situs universitas daripada blog pribadi anonim, sesuai materi literasi digital.
+b. Mengecek Penulis (Check the author): Siapa yang menulis ini? Apakah mereka ahli di bidangnya?.
+c. Membaca Keseluruhan (Read beyond the headline): Seringkali judul hoaks dibuat provokatif. Saya akan membaca keseluruhan isi untuk melihat apakah judulnya didukung oleh bukti.
+d. Mengecek Bukti (What's the evidence?): Apakah klaim di dalam artikel didukung oleh data, referensi, atau sumber lain yang valid?.
+e. Verifikasi Silang: Saya tidak akan percaya pada satu sumber saja. Saya akan mencari topik yang sama di beberapa sumber berita atau jurnal terpercaya lainnya untuk membandingkan informasi.
+
+Dengan menggabungkan teknik pencarian teknis dan evaluasi kritis, kita dapat secara efektif menyaring lautan informasi untuk menemukan data yang relevan dan akurat.
+
+Referensi:
+- Materi Inisiasi Sesi 6: Literasi Informasi.
+- Materi Presentasi: Internet, Media Sosial dan Literasi Digital.
+- Materi Inisiasi: Perilaku Masyarakat Terhadap Hoax.
+- Forum Diskusi Sesi 6 UT.
